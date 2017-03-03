@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.estefania.puntuacionesjson.MainActivity">
+
+    <Button android:id="@+id/btnVerPuntuaciones"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver puntuaciones"
+        android:layout_marginTop="25dip"/>
+
+    <Button android:id="@+id/btnCrearPuntuacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear puntuación"
+        android:layout_marginTop="25dip"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Puntos"
+            android:id="@+id/puntos"/>
+
+    </ScrollView>
+
+
+</LinearLayout>
